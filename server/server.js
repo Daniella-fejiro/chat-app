@@ -6,7 +6,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import connectDB from './config.js'
-import authroutes from "./routes/authroutes.js";
+import authroutes from "./routes/authRoutes.js";
 import chatRoutes from './routes/chatRoutes.js'
 import userRoutes from './routes/userRoutes.js'
 
